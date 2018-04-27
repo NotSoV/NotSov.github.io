@@ -1,3 +1,8 @@
+* {
+	padding: 2px;
+	border: dotted green 2px;
+}
+
 #top-nav {
 
 	font-size: 10px;
@@ -15,46 +20,41 @@
 }
 
 #centerpic {
-	align: center;
+	position: aboslute;
+	z-index: 10;
+
 	height: 50%;
 	width: 100%;
 }
 
 
 #selfpic {
-	
-	float:right
-	padding-right:300px; 
-	width: 470px; 
-	position: absolute; 
-	visibility: inherit; 
-	top: 712px; 
-	height: 470px;
+
+left: 550px;
+top: -300px;
+	position: relative;
+	z-index: 1;
 	background: grey;
-	height: 470px;
-	width: 800px;
+	height: 400px;
+	width: 400px;
 }
 
 #selfinfo{
-	float:left;
-	
-	left: 1200px; 
-	width: 470px; 
-	position: absolute; 
-	visibility: inherit; 
-	top: 712px; 
-	height: 470px;
+	left: 950px;
+	top: -700px;
+	position: relative;
+	z-index: 5;
 	background: lightblue;
-	height: 470px;
-	width: 800px;
+	height: 400px;
+	width: 400px;
 }
 
 
 
 
 .center {
-	;
+
 	z-index: 0;
-    
-   
+
+
 }
